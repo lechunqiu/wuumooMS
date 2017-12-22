@@ -1,0 +1,523 @@
+/*
+ * 通用样式
+ */
+
+.bg_color_zhu {
+	background-color: #00c3d5;
+}
+
+.bg_color_white {
+	background-color: #FFFFFF;
+}
+
+.font_color_zhuse {
+	color: #00C3D5;
+}
+
+.font_color_three {
+	color: #333333;
+}
+
+.font_color_six {
+	color: #666666;
+}
+
+.font_color_nine {
+	color: #999999;
+}
+
+.color_white {
+	color: #FFFFFF;
+}
+
+.cursor_pointer:hover {
+	cursor: pointer;
+}
+
+.a_hover_box {
+	position: relative;
+}
+
+.a_hover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.a_hover:hover {
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.hover_shadow:hover {
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.display_inline_block {
+	display: inline-block;
+}
+
+.display_block {
+	display: block;
+}
+
+.display_none {
+	display: none;
+}
+
+.vertical_align_middle {
+	vertical-align: middle;
+}
+
+.vertical_align_top {
+	vertical-align: top;
+}
+
+.vertical_align_bottom {
+	vertical-align: bottom;
+}
+
+.caochu_sl {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+header {
+	height: 50px;
+}
+
+
+/*
+ * 头部通用样式
+ */
+
+.hd_title {
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.hd_title_box i {
+	line-height: 50px;
+	font-size: 32px;
+}
+
+.hd_title_box p {
+	margin-bottom: 0;
+}
+
+.hd_title_box {
+	position: relative;
+}
+
+.top_right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.top_right a+a {
+	padding-right: 15px;
+	margin-left: 8px;
+}
+
+.top_right a:last-child {
+	padding-right: 15px;
+}
+
+.top_right a i {
+	font-size: 20px;
+}
+
+.top_right a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.top_right span {
+	line-height: 50px;
+}
+
+
+/*
+ * 底部通用样式
+ */
+
+footer {
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.bottom_h {
+	height: 60px;
+}
+
+.bt_nav_item {
+	width: 20%;
+	float: left;
+	height: 100%;
+}
+
+.bt_nav_item i {
+	font-size: 20px;
+	margin-top: 4px;
+	color: #999999;
+}
+
+.bt_nav_item p {
+	margin-bottom: 0;
+}
+
+.bt_nav {
+	padding: 0;
+	height: 100%;
+}
+
+.bt_nav .bt_nav_item:nth-child(3) i {
+	font-size: 32px;
+	color: #00C3D5;
+	margin-top: 9px;
+}
+
+.bt_nav_on i,
+.bt_nav_on p {
+	color: #00C3D5;
+}
+
+
+/*
+ * 首页内容
+ */
+
+.index_link_box {
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	padding: 0 20px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.index_link_box:hover {
+	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.index_menu {
+	margin-top: 20px;
+}
+
+.index_link_box img {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 5px;
+	right: 30px;
+}
+
+
+/*
+ * 租务管理
+ */
+
+.banner {
+	padding: 0;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.fygl {
+	margin-top: 20px;
+}
+
+.zu_link_box {
+	border: 1px solid #E5E5E5;
+	border-radius: 3px;
+	padding: 15px;
+	background-color: #FFFFFF;
+}
+
+.zu_link_box i {
+	font-size: 40px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.zu_link_title {
+	vertical-align: middle;
+}
+
+.zu_link_title p {
+	margin-bottom: 0;
+}
+
+.zu_link {
+	margin-bottom: 15px;
+}
+
+.zuwu_title h4 {
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 10px;
+}
+
+
+/*
+ * 房源管理
+ */
+
+.fygl_sx {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.fyglsx_x {
+	padding: 10px 0;
+	position: relative;
+}
+
+.fyglsx_x i {
+	font-size: 20px;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+.fyglsx_x:hover {
+	cursor: pointer;
+}
+
+.fyglsx_x_zx i {
+	font-size: 14px;
+}
+
+.fyglsx_con {
+	position: absolute;
+	width: 100%;
+	top: 36px;
+	z-index: 999;
+}
+
+.fyglsx_con ul {
+	display: inline-block;
+	border: 1px solid #E5E5E5;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.fyglsx_con ul li {
+	padding: 6px 10px;
+	color: #666666;
+}
+
+.fyglsx_con ul li:hover {
+	background-color: #EEEEEE;
+}
+
+.fyglsx_x:hover>.fyglsx_con {
+	display: block;
+}
+
+.fygl_fy {
+	margin-top: 20px;
+}
+
+.fygl_box {
+	border: 1px solid #E5E5E5;
+	border-radius: 3px;
+}
+
+.fygl_title {
+	padding: 0 15px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.fygl_title h4 {
+	margin: 0;
+	padding: 10px 0;
+	position: relative;
+}
+
+.fygl_title h4 i {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.fygl_title:hover>h4 {
+	color: #00C3D5;
+}
+
+.fygl_fj ul {
+	height: 160px;
+}
+
+.fygl_fj ul li {
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.fygl_fy_col {
+	margin-bottom: 20px;
+}
+
+.faxq_lable {
+	padding-left: 10px;
+	font-weight: normal;
+	width: 80px;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	text-align-last: justify;
+}
+
+.fangyuan_xx_form .form-group {
+	margin-bottom: 20px;
+}
+
+.fangyuan_xx_form .form-group input[type='checkbox'] {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.tjfy_btn_box {
+	margin-top: 30px;
+}
+
+.tjfy_btn {
+	padding: 10px 24px;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.tjfy_btn:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #0cb5c5;
+}
+
+.bt_bigbtn {
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.bt_bigbtn:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #0cb5c5;
+}
+
+.znsb {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.znsb p {
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+
+.znsb p i {
+	font-size: 18px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.znsb_con p {
+	padding: 10px 6px;
+	margin-bottom: 0;
+}
+
+.znsb_con {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.ym_tz p {
+	margin: 0;
+	padding: 10px 6px;
+}
+
+.ym_tz+.ym_tz {
+	border-top: 1px solid #E5E5E5;
+}
+
+.fjxq_box b {
+	font-weight: normal;
+}
+
+.fjxq_box i.fa {
+	font-size: 18px;
+	margin-left: 6px;
+}
+
+.fjxq_box p {
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+
+@media only screen and (max-width:768px) {
+	.fjxq_fjxq .fjxq_box+.fjxq_box p {
+		border-top: 1px solid #E5E5E5;
+	}
+}
+
+.wid_textarea {
+	display: block;
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.form-inline .wid_textarea {
+		display: block;
+		width: 100%;
+	}
+}
+
+.znsb {
+	border: 0;
+}
+
+.znsb_bd {
+	border-bottom: 1px dashed #E5E5E5;
+}
+
+.tjht {
+	margin-top: 20px;
+}
+
+.htfd_box form {
+	padding: 10px 10px;
+}
+
+.htfd_box form label {
+	font-weight: normal;
+}
+
+.tjfy_btn_box {
+	margin-bottom: 80px;
+}
+
+.top_right_icon {
+	display: inline-block;
+	height: 50px;
+	padding-right: 18px;
+}
+
+.dropdown-menu li a {
+	line-height: 24px !important;
+}
+
+.dropdown-menu li a i {
+	line-height: 24px !important;
+	margin-right: 6px !important;
+}
