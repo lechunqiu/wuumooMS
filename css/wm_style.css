@@ -419,8 +419,6 @@ footer {
 	background-color: #0cb5c5;
 }
 
-
-
 .bt_bigbtn {
 	display: inline-block;
 	width: 100%;
@@ -429,11 +427,11 @@ footer {
 	font-size: 18px;
 	text-decoration: none;
 }
-.zuxz_btn{
+
+.zuxz_btn {
 	width: 50%;
 	float: left;
 }
-
 
 .bt_bigbtn:hover {
 	text-decoration: none;
@@ -441,21 +439,22 @@ footer {
 	background-color: #0cb5c5;
 }
 
-.xz_tjfy_btn{
+.xz_tjfy_btn {
 	color: #666666;
 	background-color: #FFFFFF;
 	border: 1px solid #E5E5E5;
 }
-.bt_xz_btn{
+
+.bt_xz_btn {
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
 }
-.xz_tjfy_btn:hover{
+
+.xz_tjfy_btn:hover {
 	background-color: #F0F0F0;
 	color: #333333;
 }
-
 
 .znsb {
 	border-bottom: 1px solid #E5E5E5;
@@ -602,6 +601,53 @@ footer {
 .yfcl_on {
 	background-color: #EB9316;
 }
-.yzzdxq_title_box{
+
+.yzzdxq_title_box {
 	border-bottom: 1px solid #E5E5E5;
+}
+
+.ywgl_sx {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.ywsx_list li {
+	display: inline-block;
+	width: 33.33333333%;
+	float: left;
+	text-align: center;
+}
+
+.ywsx_list li a {
+	color: #333333;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 40px;
+}
+
+.ywsx_list li a:hover {
+	color: #00C3D5;
+}
+
+.ywsx_list li.ywsx_on a {
+	color: #00C3D5;
+	border-bottom: 2px solid #00C3D5;
+	box-sizing: border-box;
+	padding: 0 4px;
+}
+
+.ywgl_wzfl {
+	width: 100%;
+	padding: 10px 0;
+	padding-bottom: 0;
+}
+
+.wzfl_box {
+	display: block;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.wzfl_box p+p {
+	margin: 0;
 }
