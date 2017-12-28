@@ -169,6 +169,7 @@ footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
+	z-index: 999;
 }
 
 .bottom_h {
@@ -650,4 +651,99 @@ footer {
 
 .wzfl_box p+p {
 	margin: 0;
+}
+
+.ywglfl {
+	position: relative;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.ywglfl_bjc {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+
+.bzdsfl_box p {
+	margin-bottom: 4px;
+}
+
+.gywgl_sx {
+	overflow: hidden;
+	white-space: nowrap;
+	border-bottom: 1px solid #E5E5E5;
+	overflow-x: auto;
+}
+
+.gywgl_sx a {
+	display: inline-block;
+	padding: 10px 4px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.gywgl_sx a:hover {
+	color: #00C3D5;
+}
+
+.gywgl_sx::-webkit-scrollbar {
+	/*隐藏滚轮*/
+	display: none;
+}
+
+.gywgl_sx a.sx_on {
+	color: #00C3D5;
+	border-bottom: 2px solid #00C3D5;
+	box-sizing: border-box;
+}
+
+.qxyw_btn {
+	background-color: #ffcc00;
+	color: #FFFFFF;
+}
+
+.qxyw_btn:hover {
+	background-color: #f0c30d;
+	color: #FFFFFF;
+}
+
+.bgj_btn {
+	background-color: #FFFFFF;
+	color: #666666;
+	border: 1px solid #CCCCCC;
+}
+
+.bgj_btn:hover {
+	background-color: #F0F0F0;
+	color: #333333;
+}
+
+.bt_qxyw_btn {
+	width: 25%;
+	background-color: #ffcc00;
+	color: #FFFFFF;
+}
+
+.bt_qxyw_btn:hover {
+	background-color: #f0c30d;
+	color: #FFFFFF;
+}
+
+.bt_bgj_btn {
+	width: 25%;
+	background-color: #FFFFFF;
+	color: #666666;
+	border-top: 1px solid #CCCCCC;
+}
+
+.bt_bgj_btn:hover {
+	background-color: #F0F0F0;
+	color: #333333;
+}
+
+.bt_xyb_btn {
+	width: 50%;
 }
