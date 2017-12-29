@@ -747,3 +747,57 @@ footer {
 .bt_xyb_btn {
 	width: 50%;
 }
+
+.yh_yhjlxx {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #FFFFFF;
+}
+
+.yy_tt {
+	margin-right: 20px;
+}
+
+.yy_tt img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.yy_jl p {
+	margin-bottom: 6px;
+}
+
+.font_color_yellow {
+	color: #D58512;
+}
+
+.yh_hysj {
+	padding: 2px 6px;
+	border-radius: 3px;
+	margin-left: 6px;
+}
+
+.yh_hysj i {
+	margin-left: 2px;
+}
+
+.yh_link {
+	padding: 10px 10px;
+}
+
+.yh_link h3 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.yh_link i {
+	color: #b3b3b3;
+	font-size: 36px;
+}
+
+.a_hover_box:hover>.yh_link>h3 {
+	color: #00C3D5;
+}
